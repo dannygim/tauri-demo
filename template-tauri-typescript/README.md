@@ -3,7 +3,7 @@
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit tauri-demo/template-tauri-typescript tauri-ts-app
+npx degit dannygim/tauri-demo/template-tauri-typescript tauri-ts-app
 cd tauri-ts-app
 ```
 
