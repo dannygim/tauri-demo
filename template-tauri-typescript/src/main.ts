@@ -1,3 +1,10 @@
-const message: string = 'Hello World!';
+import { invoke } from "@tauri-apps/api";
 
-document.body.innerHTML = message;
+const name = 'Tauri';
+
+async function displayHello() {
+    let message: string = await invoke("hello_command", { name });
+    document.body.innerHTML = message;
+}
+
+displayHello();
