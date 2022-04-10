@@ -1,6 +1,6 @@
 {
   "package": {
-    "productName": "svelte-app",
+    "productName": "tauri-typescript-app",
     "version": "0.1.0"
   },
   "build": {
